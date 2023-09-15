@@ -1,3 +1,4 @@
+markdown: kramdown
 # Translation-with-attention-GRU
  Machine Translation with attention-based GRU   
  Conduct comprehensive study and tuning on different parts of the attention-based GRU architecture.   

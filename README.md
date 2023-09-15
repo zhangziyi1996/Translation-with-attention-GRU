@@ -28,28 +28,28 @@ In terms of the beam search decoding setup, the stopping criterion adopted here 
 
 <p align="justify">The four language pairs' results are shown as followed:      </p>
 
-![table1](https://github.com/zhangziyi1996/Translation-with-attention-GRU/assets/143377198/a71e648f-3caa-4d2b-ba14-0ef8a101b7fa)
+![table1](Images/table1.png)
 
-![table2](https://github.com/zhangziyi1996/Translation-with-attention-GRU/assets/143377198/4ebe0328-8f3f-4da0-a408-87c162132edc)
-
-
-![table3](https://github.com/zhangziyi1996/Translation-with-attention-GRU/assets/143377198/71dc9bf1-9552-46a0-a0bd-6c36ca1a45d4)
+![table2](Images/table2.png)
 
 
-![table4](https://github.com/zhangziyi1996/Translation-with-attention-GRU/assets/143377198/8c1a6fc8-2e10-4751-bf55-053bcb060d41)
+![table3](Images/table3.png)
+
+
+![table4](Images/table4.png)
 
 ### Experiment 2: Compare the model performance between random initialized embedding and pretrained embedding layer
 <p align="justify">The loaded embedding layer is pretrained by Word2Vec from gensim.models package. The pretraining data is monolingual training data which can be downloaded from the link: http://www.statmt.org/wmt14/translation-task.html#download.   </p>
 
 The comparison results are:   
 
-![table21](https://github.com/zhangziyi1996/Translation-with-attention-GRU/assets/143377198/c9971bfa-7295-4c4d-b2f9-5fa77acdb947)
+![table21](Images/table2-1.png)
 
-![table22](https://github.com/zhangziyi1996/Translation-with-attention-GRU/assets/143377198/6e2692ea-28d2-4155-91aa-11f8865fef24)
+![table22](Images/table2-2.png)
 
-![table23](https://github.com/zhangziyi1996/Translation-with-attention-GRU/assets/143377198/d632af66-db57-49c7-98db-8a18c8ba2c4e)
+![table23](Images/table2-3.png)
 
-![table24](https://github.com/zhangziyi1996/Translation-with-attention-GRU/assets/143377198/103c3d76-121f-4bc6-a1e3-65968d4848a9)
+![table24](Images/table2-4.png)
 
 
 ### Experiment 3: Compare the model performance between different attention mechanisms
@@ -62,14 +62,14 @@ In details, besides the default dot-product attention mechanism, two other atten
 
 The comparison results are:
 
-![table31111](https://github.com/zhangziyi1996/Translation-with-attention-GRU/assets/143377198/1979a093-9413-42f0-8dfb-f00c3a4f35a9)
+![table31](Images/table3-1.png)
 
 
-![table32](https://github.com/zhangziyi1996/Translation-with-attention-GRU/assets/143377198/48a84520-7e2e-4812-998f-fbe11970238b)
+![table32](Images/table3-2.png)
 
-![table33](https://github.com/zhangziyi1996/Translation-with-attention-GRU/assets/143377198/989d52da-1f19-430b-9a2b-bb812fe268b5)
+![table33](Images/table3-3.png)
 
-![table34](https://github.com/zhangziyi1996/Translation-with-attention-GRU/assets/143377198/8c717067-40d5-4ccf-bc4b-828f12580b00)
+![table34](Images/table3-4.png)
 
 
 

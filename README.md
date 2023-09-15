@@ -1,4 +1,3 @@
-markdown: kramdown
 # Translation-with-attention-GRU
  Machine Translation with attention-based GRU   
  Conduct comprehensive study and tuning on different parts of the attention-based GRU architecture.   
@@ -56,9 +55,9 @@ The comparison results are:
 ### Experiment 3: Compare the model performance between different attention mechanisms
 In details, besides the default dot-product attention mechanism, two other attention variants are also being examined:   
 
-<img src="https://github.com/zhangziyi1996/Translation-with-attention-GRU/assets/143377198/49a0b893-3f79-4a48-8bd6-dad6e0e2bedc" width="500" />
+<img src="Images/attn1.png" width="500" />
 
-<img src="https://github.com/zhangziyi1996/Translation-with-attention-GRU/assets/143377198/431b2e73-504f-4479-bc16-bbdb8393eb2e" width="500" />
+<img src="Images/attn2.png" width="500" />
 
 
 The comparison results are:
